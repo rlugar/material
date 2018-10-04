@@ -1,5 +1,6 @@
 
 
+
 # Part 1 - Brainstorm: Statistics
 
 ## Distributions
@@ -47,8 +48,6 @@ data.frame(row=s, techs)
 #### list the github usernames of everyone in your group
 #### submit a pull request to brainstorm_modified.md
 
-[1] [https://liorpachter.wordpress.com/seq/](https://liorpachter.wordpress.com/seq/)
-
 ##ATAC-Seq
 
 ATAC-seq is a sensitive technique used to assess genome-wide chromatin accessibility at nucleotide level, aiming to characterize interactions between DNA and histone proteins.
@@ -56,14 +55,17 @@ The main actor is the hyperactive Tn5 transposase, which preferentially operates
 The main advantage of this method is, that in combination with pre-loaded sequencing adapters, administration of Tn5 transposase enables a simultaneous fragmentation and adapter tagging for library preparation.
 
 ###Technology
+
 The chosen technology is ATAC-seq. 
 
 ###Applications
+
 Its applications include genome wide identification of changes in nucleosome position, transcription factor occupancy and chromatin density at nucleotide resolution.
 This is helpful to characterize the development and the presence of pathological conditions. Furthermore, ATAC-seq can be applied to create personalized epigenomic maps, which display the individual daily changes in chromatin packaging.
 
 
 ###Statistical methods
+
 A pipeline was developed to process and analyse the ATAC-seq data. This pipeline uses various different statistical tools, which apply different types of statistical methods: 
 **ZINBA (Zero-Inflated Negative Binomial Algorithm)** -> for peak calling: novel mixture regression model,determination of relative likelihood,posterior probabilities of component membership, weighted generalized linear models
 **ChromHMM**-> to calculate ATAC-seq insertion size enrichment analysis within chromatin annotations: multivariate Hidden Markov Model (defines chromatin states based on histone modification patterns)
@@ -74,6 +76,7 @@ hierarchical clustering (Pearson correlation)
 mean centering
 
 ###List of members
+
 Sarah Greve (github username: greves)
 Rosamaria Lugarà (github username: rlugar)
 
